@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game Home Page</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(120deg, #4e54c8, #8f94fb);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container {
+            margin-top: 100px;
+            background: rgba(0,0,0,0.3);
+            padding: 40px 60px;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px 0 rgba(31,38,135,0.37);
+            text-align: center;
+        }
+        h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5em;
+        }
+        p {
+            margin-bottom: 30px;
+            font-size: 1.2em;
+        }
+        .nav-buttons button {
+            margin: 10px;
+            padding: 15px 35px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #5f72be;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .nav-buttons button:hover {
+            background-color: #4e54c8;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 0.95em;
+            color: #e4e4e4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Super Fun Game</h1>
+        <p>Welcome to the ultimate gaming adventure! Choose an option to get started.</p>
+        <div class="nav-buttons">
+            <button onclick="location.href='play.html'">Play</button>
+            <button onclick="location.href='highscores.html'">High Scores</button>
+            <button onclick="location.href='about.html'">About</button>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Super Fun Game | All rights reserved
+    </footer>
+</body>
+</html>
